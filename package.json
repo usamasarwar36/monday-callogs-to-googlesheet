@@ -1,0 +1,20 @@
+{
+  "name": "monday-calls-to-sheet",
+  "version": "1.0.0",
+  "description": "A serverless Express API to receive Monday.com call updates and forward them to Google Sheets via Apps Script.",
+  "main": "api/webhook.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/webhook.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Usama Sarwar",
+  "license": "MIT"
+}
